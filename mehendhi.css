@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: goldenrod;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    height: 100px;
+}
+.logo h1{
+    padding-top: 2rem;
+    color:goldenrod;
+    text-align: center;
+    padding-left: 24rem;
+}
+h3{
+    color: goldenrod;
+    padding-top: 4rem;
+}
+nav{
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 100%;
+    padding:0rem 2rem;
+}
+nav ul li {
+    position: relative;
+    /* margin-right: 20px; */
+    list-style: none;
+}
+
+nav .navbar .dist{
+    padding: 0% 3rem;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(54, 50, 50);
+    top: 110%;
+    left:2rem;
+    padding: 0;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+ nav ul li:hover ul.dropdown {
+    display: block;
+    margin: 0;
+}
+
+.banner{
+    display: flex;
+    background-color: black;
+    background-image: url("assets\1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    
+}
+.cards{
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    
+}
+.card{
+    max-width: 30%;
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+
+}
+.image img{
+    max-width: 100%;
+}
+.strip{
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    margin: 0rem 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.strip img{
+    max-width: 60%;
+    object-fit: cover;
+    height: 60px;
+}
+.main-card,.main-card1{
+    max-width: 100%;
+    margin: 0rem 2.5rem;
+    padding: 3rem ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.maincardimage,.maincardimage1{
+    max-width: 40%;
+    
+}
+.maincarddisc{
+    max-width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.maincardimage img{
+    max-width: 100%;
+}
+.maincardimage1 {
+    max-width: 30%;
+}
