@@ -2,26 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: goldenrod;
 }
 .logo{
     display: flex;
     text-align: center;
-    background-color: black;
+    background-color: #533e4a;
     height: 100px;
 }
 .logo h1{
     padding-top: 2rem;
-    color:goldenrod;
     text-align: center;
-    padding-left: 24rem;
+    padding-left: 30rem;
+    color: rgb(175, 175, 87);
 }
 h3{
     color: goldenrod;
     padding-top: 4rem;
 }
 nav{
-    background-color: #222;
+    background-color: #B8D4E3;
     padding: 10px;
     display: flex;
     /* justify-content: space-between; */
@@ -47,11 +46,13 @@ nav ul li a {
     text-decoration: none;
     padding: 5px;
     display: block;
+    
+    color: #260C1A;
 }
 nav ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: rgb(54, 50, 50);
+    background-color: #e7f1f7;
     top: 110%;
     left:2rem;
     padding: 0;
@@ -66,8 +67,8 @@ nav ul li:hover ul.dropdown {
 
 .banner{
     display: flex;
-    background-color: black;
-    background-image: url("assets\1.jpg");
+    background-color: #F9F9F9;
+    background-image: url("assets/banner1.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -79,7 +80,7 @@ nav ul li:hover ul.dropdown {
     display: flex;
     padding: 3rem;
     justify-content: space-between;
-    
+    background-color: #f4e9e9;
 }
 .card{
     max-width: 30%;
@@ -101,15 +102,17 @@ nav ul li:hover ul.dropdown {
     padding: 1rem;
     align-items: center;
     margin: 0rem 2rem;
+    margin-top: 4rem;
     border-radius: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #EDF2F4;
 }
 .strip img{
-    max-width: 60%;
+    max-width: 30%;
     object-fit: cover;
-    height: 60px;
+    height: 90px;
 }
-.main-card,.main-card1{
+.main-card{
     max-width: 100%;
     margin: 0rem 2.5rem;
     padding: 3rem ;
@@ -117,8 +120,9 @@ nav ul li:hover ul.dropdown {
     justify-content: space-between;
     margin-top: 50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #edfefa;
 }
-.maincardimage,.maincardimage1{
+.maincardimage{
     max-width: 40%;
     
 }
@@ -131,7 +135,4 @@ nav ul li:hover ul.dropdown {
 }
 .maincardimage img{
     max-width: 100%;
-}
-.maincardimage1 {
-    max-width: 30%;
 }
